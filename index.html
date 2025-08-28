@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadata for SEO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A beginner-friendly HTML5 webpage demonstrating semantic structure, accessibility, and SEO best practices." />
+    <meta name="keywords" content="HTML5, Accessibility, SEO, Semantic Tags, Web Development" />
+    <meta name="author" content="Your Name" />
+    <title>HTML5 Semantic Webpage</title>
+</head>
+<body>
+    <!-- Header Section -->
+    <header role="banner">
+        <h1>Welcome to My Semantic HTML5 Webpage</h1>
+        <p>A simple and accessible web page built with semantic HTML5 elements</p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="#about" title="Learn more about this page">About</a></li>
+            <li><a href="#articles" title="Read our latest articles">Articles</a></li>
+            <li><a href="#contact" title="Get in touch with us">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main id="main-content">
+        <!-- About Section -->
+        <section id="about" aria-labelledby="about-heading">
+            <h2 id="about-heading">About This Page</h2>
+            <p>
+                This page demonstrates the use of HTML5 semantic elements, accessibility features, and basic SEO optimization. 
+                By using proper structure and descriptive content, we make it easier for both users and search engines to 
+                understand our content.
+            </p>
+        </section>
+
+        <!-- Articles Section -->
+        <section id="articles" aria-labelledby="articles-heading">
+            <h2 id="articles-heading">Latest Articles</h2>
+
+            <article aria-labelledby="article1-title">
+                <h3 id="article1-title">Why Semantic HTML Matters</h3>
+                <p>
+                    Semantic HTML improves accessibility, SEO, and maintainability. Screen readers and search engines 
+                    benefit from a logical structure, making your content easier to understand.
+                </p>
+            </article>
+
+            <article aria-labelledby="article2-title">
+                <h3 id="article2-title">Beginner Tips for Web Accessibility</h3>
+                <p>
+                    Adding landmarks, proper headings, and descriptive link text helps create an inclusive web experience 
+                    for everyone, including users who rely on assistive technologies.
+                </p>
+            </article>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Us</h2>
+            <p>
+                If you’d like to learn more about semantic HTML or accessibility, feel free to reach out.
+            </p>
+            <address>
+                <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+                <p>Phone: <a href="tel:+265 998 394 214">+265 998 394 214</a></p>
+            </address>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer role="contentinfo">
+        <p>&copy; 2025 My Semantic Webpage. All rights reserved.</p>
+    </footer>
+</body>
+</html>
